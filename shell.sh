@@ -24,6 +24,8 @@ ssh-add -l > /dev/null || ssh-add ~/.ssh/gitkey
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
+export GOBIN=$HOME/bin/
 
 source ~/Wolf/custom_command.sh
 

@@ -1,3 +1,5 @@
 nmcli device wifi list
 
 nmcli device connect "Name of network" password "the_password"
+nmcli connection show
+nmcli connection up connection_name
