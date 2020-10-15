@@ -26,7 +26,12 @@ export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:$(go env GOPATH)/bin"
 export PATH="$HOME/gh-cli/bin:$PATH"
+
+# Editor
 export EDITOR=emacs
+#Bin path
+export PATH="$PATH:$HOME/bin"
+
 
 source ~/Wolf/custom_command.sh
 
