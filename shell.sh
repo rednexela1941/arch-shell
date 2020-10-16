@@ -34,6 +34,14 @@ export PATH="$PATH:$HOME/bin"
 export GOBIN=$HOME/bin/
 
 
+function nightshift {
+	redshift -P -O 5000
+}
+
+function dayshift {
+	redshift -P -O 6500
+}
+
 source ~/Wolf/custom_command.sh
 
 alias chief="~/chief/chief"
