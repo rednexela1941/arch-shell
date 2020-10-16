@@ -35,7 +35,7 @@ export GOBIN=$HOME/bin/
 
 
 function nightshift {
-	redshift -P -O 5000
+	redshift -P -O 4000
 }
 
 function dayshift {
