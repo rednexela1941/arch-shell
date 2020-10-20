@@ -2,8 +2,6 @@ source ~/Tooling/custom_commands.sh
 
 # Alias so that emacs opens in terminal inste
 alias emacs="emacs -nw"
-alias em="emacs"
-
 
 function note {
     touch ~/Notes/$1.txt
